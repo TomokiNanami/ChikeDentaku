@@ -1,0 +1,1 @@
+package jp.promin.chike.android.dentakukku.util;public final class DentakuUtil {}

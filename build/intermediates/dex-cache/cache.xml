@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="D:\GitHub\Dentakukku\app\build\intermediates\exploded-aar\com.android.databinding\library\1.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="957dc30b1495f8689271e00d56ab09cc9192df02">
+        <dex dex="D:\GitHub\Dentakukku\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.databinding-library-1.2.1_0fa4d08fc2f268751b05bb7471a323c9d1b42a6b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="G:\app\Android\Android Studio\gradle\m2repository\com\android\databinding\baseLibrary\2.2.3\baseLibrary-2.2.3.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="b4b51d1925cdfda98fd861230c1ecb5855500129">
+        <dex dex="D:\GitHub\Dentakukku\app\build\intermediates\transforms\dex\debug\folders\1000\10\baseLibrary-2.2.3_408f4ce8996b862c0980cb4b569051aa54f8130a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\GitHub\Dentakukku\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\25.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="b24e1c688744078e1fa833ffadf696794761bbe5">
+        <dex dex="D:\GitHub\Dentakukku\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-25.0.1_afe12ae1ee4f7f64119b2c537569988665df07e6\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\GitHub\Dentakukku\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.0.1\jars\libs\internal_impl-25.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="e5343c9d19cb19ff55f6b268c7f3fe8c9d224f6f">
+        <dex dex="D:\GitHub\Dentakukku\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.1_ddcab9d3c3bf172f14ad4c949c736325ec740990\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\GitHub\Dentakukku\app\build\intermediates\exploded-aar\com.android.databinding\adapters\1.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="c56d29136c2257f63f08c29c4e739efb03b06c7d">
+        <dex dex="D:\GitHub\Dentakukku\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.databinding-adapters-1.2.1_5b970bc00b25bfc7ae8a7ddec3a7377806f2f233\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\GitHub\Dentakukku\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.0.1\jars\libs\internal_impl-25.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="c5b7145fb34779b6639147b8f2f8dd77c0db771b">
+        <dex dex="D:\GitHub\Dentakukku\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.1_90b34a5737582f1804b2f508507e37bdaf1c5ef8\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\GitHub\Dentakukku\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.0.1\jars\libs\internal_impl-25.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="3af8cc51ef7088e56f132780da8c0bd858b6a6ad">
+        <dex dex="D:\GitHub\Dentakukku\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.1_13034e25b7921936b736268ba3ce3c874e6723e4\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\GitHub\Dentakukku\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="a0c8cffc40fe84ed280b0e37c7c9ce1829af5eff">
+        <dex dex="D:\GitHub\Dentakukku\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_a679d9ce5e5b55defb71089ef5d080e24f1cf36b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\GitHub\Dentakukku\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="c40ced9587bf6c9770fc1bbea36f71a4e5f9afd4">
+        <dex dex="D:\GitHub\Dentakukku\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_4d1b7610b44870267a35cf4f8d2018827cd9b121\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\GitHub\Dentakukku\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.0.1\jars\libs\internal_impl-25.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="f83b00041ecfba705603fec40363416c7de69719">
+        <dex dex="D:\GitHub\Dentakukku\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.1_5344a403145036c88b85fb1422a0055e4673d0a8\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\GitHub\Dentakukku\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\25.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="772bed2d992b67b9d0327f766cc95cd63031dcd3">
+        <dex dex="D:\GitHub\Dentakukku\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-25.0.1_6a3f5c759b29bea1c7835f2656206cd7b9d73c26\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\GitHub\Dentakukku\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\25.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="f7ac4b327fdb9e2ee386f5adc46164927658de4b">
+        <dex dex="D:\GitHub\Dentakukku\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-25.0.1_3b3f99a04565354ac777c4f33cd447bf3aab8499\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\GitHub\Dentakukku\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="6a1479afe9f1b3645e1cd9a87318976893472818">
+        <dex dex="D:\GitHub\Dentakukku\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-media-compat-25.0.1_3f7982ea768dc9b1ec11694d059dfb77aa36c533\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\GitHub\Dentakukku\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="bc7e99e8d0fc279a05aa91378530f467ad62d443">
+        <dex dex="D:\GitHub\Dentakukku\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-ui-25.0.1_72b199658d80b8f60631d09d3798a86541347d09\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\GitHub\Dentakukku\app\build\intermediates\exploded-aar\com.android.support\support-fragment\25.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="26c6eef571592c91f29e56fda0bac73321de0c92">
+        <dex dex="D:\GitHub\Dentakukku\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-fragment-25.0.1_f70ac14e5e6c7aa099bac8ce14a26184b0b8363e\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\GitHub\Dentakukku\app\build\intermediates\exploded-aar\com.android.support\support-fragment\25.0.1\jars\libs\internal_impl-25.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="c0bd6ffb002a85b5e7cad29f8558d1cc59539679">
+        <dex dex="D:\GitHub\Dentakukku\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.1_1bbf378f5194b443eea9e9249aa41c4d3b09fee9\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\GitHub\Dentakukku\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="51eba4a4dd73044f90a9d58dd7ca34adbebfcf4e">
+        <dex dex="D:\GitHub\Dentakukku\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-compat-25.0.1_6caaccf61428f045c594167b3715affe94457c6f\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\GitHub\Dentakukku\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="00d4c8eebf2b681073c72a26bd0849549e51c7cb">
+        <dex dex="D:\GitHub\Dentakukku\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-utils-25.0.1_1f4d92da1de6be01712725b597a81dc72b51fa86\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\GitHub\Dentakukku\app\build\intermediates\exploded-aar\com.android.support\support-v4\25.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="D:\GitHub\Dentakukku\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-25.0.1_8f5559dde89b5e39a70dccf68d690a8c087fa2eb\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\app\android-sdk\sdk\extras\android\m2repository\com\android\support\support-annotations\25.0.1\support-annotations-25.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="a09194311f8f89c3e6db09d79f50897a889d615e">
+        <dex dex="D:\GitHub\Dentakukku\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-25.0.1_d8c840362c1db97fd2ea29720e66fad386ee91e0\classes.dex" />
+    </item>
+
+</items>

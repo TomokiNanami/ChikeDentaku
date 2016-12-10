@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+        <variable
+            name="viewModel"
+            type="jp.promin.chike.android.dentakukku.ui.MainActivityViewModel" />
+        <variable
+            name="listener"
+            type="jp.promin.chike.android.dentakukku.ui.MainActivityViewModel.Listener" />
+    </data>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:background="@color/head_background">
+
+        <LinearLayout
+            android:id="@+id/head_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/button_margin"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@{viewModel.currentOperation}"
+                android:textSize="20sp"
+                android:paddingRight="8dp"
+                android:paddingLeft="8dp"
+                android:gravity="right"
+                android:textColor="@color/head_text_color"
+                />
+
+
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:calcValue="@{viewModel.calcValue}"
+                    android:textColor="@color/head_text_color"
+                    android:textSize="40sp"
+                    android:paddingRight="8dp"
+                    android:paddingLeft="8dp"
+                    android:layout_gravity="right"
+                    android:gravity="right"
+                    android:maxLines="1"
+                    />
+            </HorizontalScrollView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/content_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/head_layout" >
+
+            <LinearLayout
+                android:id="@+id/left_line_1"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:layout_weight="1" >
+
+                <jp.promin.chike.android.dentakukku.ui.view.FunctionButton
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:layout_margin="@dimen/button_margin"
+                    android:onClick="@{listener::onClickKey}"
+                    app:type="tax" />
+
+                <jp.promin.chike.android.dentakukku.ui.view.NumberButton
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:layout_margin="@dimen/button_margin"
+                    android:onClick="@{listener::onClickKey}"
+                    app:number="7" />
+
+                <jp.promin.chike.android.dentakukku.ui.view.NumberButton
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:layout_margin="@dimen/button_margin"
+                    android:onClick="@{listener::onClickKey}"
+                    app:number="4" />
+
+                <jp.promin.chike.android.dentakukku.ui.view.NumberButton
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:layout_margin="@dimen/button_margin"
+                    android:onClick="@{listener::onClickKey}"
+                    app:number="1" />
+
+                <jp.promin.chike.android.dentakukku.ui.view.NumberButton
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:layout_margin="@dimen/button_margin"
+                    android:onClick="@{listener::onClickKey}"
+                    app:number="0" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/left_line_2"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:layout_weight="1" >
+
+                <jp.promin.chike.android.dentakukku.ui.view.FunctionButton
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:layout_margin="@dimen/button_margin"
+                    android:onClick="@{listener::onClickKey}"
+                    app:type="memory_plus" />
+
+                <jp.promin.chike.android.dentakukku.ui.view.NumberButton
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:layout_margin="@dimen/button_margin"
+                    android:onClick="@{listener::onClickKey}"
+                    app:number="8" />
+
+                <jp.promin.chike.android.dentakukku.ui.view.NumberButton
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:layout_margin="@dimen/button_margin"
+                    android:onClick="@{listener::onClickKey}"
+                    app:number="5" />
+
+                <jp.promin.chike.android.dentakukku.ui.view.NumberButton
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:layout_margin="@dimen/button_margin"
+                    android:onClick="@{listener::onClickKey}"
+                    app:number="2" />
+
+                <jp.promin.chike.android.dentakukku.ui.view.FunctionButton
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:layout_margin="@dimen/button_margin"
+                    android:onClick="@{listener::onClickKey}"
+                    app:type="num_00" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/left_line_3"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:layout_weight="1" >
+
+                <jp.promin.chike.android.dentakukku.ui.view.FunctionButton
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:layout_margin="@dimen/button_margin"
+                    android:onClick="@{listener::onClickKey}"
+                    app:type="memory_minus" />
+
+                <jp.promin.chike.android.dentakukku.ui.view.NumberButton
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:layout_margin="@dimen/button_margin"
+                    android:onClick="@{listener::onClickKey}"
+                    app:number="9" />
+
+                <jp.promin.chike.android.dentakukku.ui.view.NumberButton
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:layout_margin="@dimen/button_margin"
+                    android:onClick="@{listener::onClickKey}"
+                    app:number="6" />
+
+                <jp.promin.chike.android.dentakukku.ui.view.NumberButton
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:layout_margin="@dimen/button_margin"
+                    android:onClick="@{listener::onClickKey}"
+                    app:number="3" />
+
+                <jp.promin.chike.android.dentakukku.ui.view.FunctionButton
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:layout_margin="@dimen/button_margin"
+                    android:onClick="@{listener::onClickKey}"
+                    app:type="num_dot" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/left_line_4"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:layout_weight="1" >
+
+                <jp.promin.chike.android.dentakukku.ui.view.FunctionButton
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:layout_margin="@dimen/button_margin"
+                    android:onClick="@{listener::onClickKey}"
+                    app:type="memory_clear" />
+
+                <jp.promin.chike.android.dentakukku.ui.view.FunctionButton
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:layout_margin="@dimen/button_margin"
+                    android:onClick="@{listener::onClickKey}"
+                    app:type="cancel_all" />
+
+                <jp.promin.chike.android.dentakukku.ui.view.FunctionButton
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:layout_margin="@dimen/button_margin"
+                    android:onClick="@{listener::onClickKey}"
+                    app:type="op_division" />
+
+                <jp.promin.chike.android.dentakukku.ui.view.FunctionButton
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="2.03"
+                    android:layout_margin="@dimen/button_margin"
+                    android:onClick="@{listener::onClickKey}"
+                    app:type="op_add" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/left_line_5"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:layout_weight="1" >
+
+                <jp.promin.chike.android.dentakukku.ui.view.FunctionButton
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:layout_margin="@dimen/button_margin"
+                    android:onClick="@{listener::onClickKey}"
+                    app:type="num_delete"/>
+
+                <jp.promin.chike.android.dentakukku.ui.view.FunctionButton
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:layout_margin="@dimen/button_margin"
+                    android:onClick="@{listener::onClickKey}"
+                    app:type="cancel" />
+
+                <jp.promin.chike.android.dentakukku.ui.view.FunctionButton
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:layout_margin="@dimen/button_margin"
+                    android:onClick="@{listener::onClickKey}"
+                    app:type="op_multiple" />
+
+                <jp.promin.chike.android.dentakukku.ui.view.FunctionButton
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:layout_margin="@dimen/button_margin"
+                    android:onClick="@{listener::onClickKey}"
+                    app:type="op_sub" />
+
+                <jp.promin.chike.android.dentakukku.ui.view.FunctionButton
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:layout_margin="@dimen/button_margin"
+                    android:onClick="@{listener::onClickKey}"
+                    app:type="op_equal" />
+            </LinearLayout>
+        </LinearLayout>
+    </RelativeLayout>
+</layout>

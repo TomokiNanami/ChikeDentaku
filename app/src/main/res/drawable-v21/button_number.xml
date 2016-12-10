@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <ripple xmlns:android="http://schemas.android.com/apk/res/android"
+                android:color="@color/button_number_on">
+            <item android:state_pressed="true">
+                <color android:color="@color/button_number_on" />
+            </item>
+            <item android:state_pressed="false">
+                <color android:color="@color/button_number_off" />
+            </item>
+        </ripple>
+    </item>
+    <item>
+        <shape>
+            <gradient
+                android:angle="90"
+                android:centerColor="@color/colorGrad"
+                android:type="sweep" />
+        </shape>
+    </item>
+</layer-list>
